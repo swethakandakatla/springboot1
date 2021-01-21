@@ -5,7 +5,7 @@ pipeline {
 	    registry = "https://registry.hub.docker.com"
 	    registryCredentials = "docker"
 	}
-	
+	// instruct jenkins to allocate executor and workspace for entire pipeline2
 	// instruct jenkins to allocate executor and workspace for entire pipeline
     agent any
     
